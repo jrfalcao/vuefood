@@ -1,25 +1,29 @@
 <template>
   <div>
-    <ul>
-      <li>
-        <router-link :to="{ name: 'Home' }">Home</router-link>
-      </li>
-      <li>
-        <router-link :to="{ name: 'Products' }">Loja</router-link>
-      </li>
-      <li>
-        <router-link :to="{ name: 'About' }">Sobre</router-link>
-      </li>
-    </ul>
-    <router-view></router-view>
+    <HeaderComponent />
+
+    <!-- Page Content -->
+    <div class="container container-body">
+      <router-view></router-view>
+    </div>
+    <!-- / Container -->
+
+    <FooterComponent />
   </div>
 </template>
 
 <script>
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import HeaderComponent from "./_partials/header";
+import FooterComponent from "./_partials/footer";
 
-export default {};
+export default {
+  components: {
+    HeaderComponent,
+    FooterComponent,
+  },
+};
 </script>
 
 <style scoped>
