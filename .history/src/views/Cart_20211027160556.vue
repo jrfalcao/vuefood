@@ -11,7 +11,7 @@
                 <!-- PRODUCT -->
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-2 text-center">
-                            <img class="img-responsive" src="@/assets/imgs/acai.png" alt="prewiew" width="120" height="80">
+                            <img class="img-responsive" src="imgs/acai.png" alt="prewiew" width="120" height="80">
                     </div>
                     <div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">
                         <h4 class="product-name"><strong>Açai Bomba</strong></h4>
@@ -43,7 +43,7 @@
                 <!-- PRODUCT -->
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-2 text-center">
-                            <img class="img-responsive" src="@/assets/imgs/pizza.png" alt="prewiew" width="120" height="80">
+                            <img class="img-responsive" src="imgs/pizza.png" alt="prewiew" width="120" height="80">
                     </div>
                     <div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">
                         <h4 class="product-name"><strong>Pizza Salgada</strong></h4>
