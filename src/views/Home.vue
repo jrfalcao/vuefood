@@ -14,7 +14,7 @@
             /></a>
             <div class="restaurant-card-body">
               <h3>
-                <a href="vitrine-tenant.html">Mcdonald's</a>
+                <router-link :to="{ name: 'Products' }">Mcdonald's</router-link>
               </h3>
             </div>
           </div>
