@@ -28,9 +28,9 @@
               </p>
             </div>
             <div class="card-footer card-footer-custom">
-              <router-link :to="{ name: 'Cart' }">
-                Adicionar no Carrinho <i class="fas fa-cart-plus"></i>
-              </router-link>
+              <a href="carrinho.html"
+                >Adicionar no Carrinho <i class="fas fa-cart-plus"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="disabled card h-100">
             <a href="#"
-              ><img class="card-img-top" src="@/assets/imgs/acai.png" alt=""
+              ><img class="card-img-top" src="imgs/acai.png" alt=""
             /></a>
             <div class="card-body">
               <h4 class="card-title">
@@ -61,10 +61,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
             <a href="#"
-              ><img
-                class="card-img-top"
-                src="@/assets/imgs/japonesa.png"
-                alt=""
+              ><img class="card-img-top" src="imgs/japonesa.png" alt=""
             /></a>
             <div class="card-body">
               <h4 class="card-title">
@@ -87,7 +84,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
             <a href="#"
-              ><img class="card-img-top" src="@/assets/imgs/lanches.png" alt=""
+              ><img class="card-img-top" src="imgs/lanches.png" alt=""
             /></a>
             <div class="card-body">
               <h4 class="card-title">
@@ -110,7 +107,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
             <a href="#"
-              ><img class="card-img-top" src="@/assets/imgs/pizza.png" alt=""
+              ><img class="card-img-top" src="imgs/pizza.png" alt=""
             /></a>
             <div class="card-body">
               <h4 class="card-title">
@@ -133,7 +130,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
             <a href="#"
-              ><img class="card-img-top" src="@/assets/imgs/acai.png" alt=""
+              ><img class="card-img-top" src="imgs/acai.png" alt=""
             /></a>
             <div class="card-body">
               <h4 class="card-title">
