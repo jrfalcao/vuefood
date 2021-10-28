@@ -28,7 +28,7 @@
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="card-footer card-footer-custom">
-                <router-link :to="{name:'Cart'}">Adicionar no Carrinho <i class="fas fa-cart-plus"></i></router-link>
+                <a href="carrinho.html">Adicionar no Carrinho <i class="fas fa-cart-plus"></i></a>
               </div>
             </div>
           </div>
